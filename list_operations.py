@@ -36,7 +36,7 @@ def last(input_list):
 
     """
 
-    return []
+    return input_list.pop()
 
 
 def top(input_list):
