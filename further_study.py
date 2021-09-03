@@ -15,8 +15,11 @@ def custom_len(input_list):
         8
 
     """
+    list_count = 0
+    for i in input_list:
+        list_count +=1
 
-    return 0
+    return list_count
 
 
 # For the next four exercises, you'll need to be clever and think about ways
@@ -43,8 +46,35 @@ def custom_append(input_list, value):
         True
 
     """
-
+    
+    """# don't do this: input_list[-1] = value
+    new_list = []
+    while answer = False
+        for item in input_list:
+        new_list[i] = item
+        #new_list[-1] = value
+     new_list[i] = value
+     answer = True   
+    # input_list = [input_list,]"""
+    # additional_list = [value]
+    # #new_list =[]
+    #new_list = input_list + additional_list
+    #return new_list
+    # last_var = input_list[-1]
+    # input_list[-1]= value
+    # input_list[-1:-1]= last_var
+    #new_list = []
+    value_list = [value]
+    input_list[0:] = input_list + value_list
+    # for i in input_list:
+    #     input_list[-([i]+1)] = new_list[i+1]
+    # #reverse the new_list
+    # new_list_rev = new_list[-1:0:-1]
+    # return new_list_rev
     pass
+    #print(input_list)
+    #return(input_list)
+
 
 
 def custom_extend(input_list, second_list):
